@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ljc.picturecut.MainActivity">
+    <include layout="@layout/bar_main"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+        <!--添加区域-->
+        <include layout="@layout/part_add" />
+
+        <!--预览区域-->
+        <include layout="@layout/part_preview" />
+
+        <!--历史区域-->
+        <include layout="@layout/part_history" />
+    </LinearLayout>
+</LinearLayout>

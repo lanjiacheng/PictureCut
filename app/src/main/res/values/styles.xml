@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#5f9f9fe8</item>
+    </style>
+</resources>
